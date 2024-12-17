@@ -3,17 +3,23 @@
   "version": "1.0.0",
   "description": "Fill in later",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsx index.ts"
+  },
+  "author": "Komu",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "fastify": "^5.2.0"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/Formup/code-review-test.git"
-  },
-  "author": "Komu",
-  "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/Formup/code-review-test/issues"
   },
   "homepage": "https://github.com/Formup/code-review-test#readme"
 }
